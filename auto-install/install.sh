@@ -2,11 +2,11 @@
 
 # Automatic Installation Script
 # Many thanks to the PiVPN project (pivpn.io) for much of the inspiration for this script
-# Run from https://raw.githubusercontent.com/nebhead/pifire/master/auto-install/install.sh
+# Run from https://raw.githubusercontent.com/gsherwin74/pifire/master/auto-install/install.sh
 #
 # Install with this command (from your Pi):
 #
-# curl https://raw.githubusercontent.com/nebhead/pifire/master/auto-install/install.sh | bash
+# curl https://raw.githubusercontent.com/gsherwin74/pifire/master/auto-install/install.sh | bash
 #
 # NOTE: Pre-Requisites to run Raspi-Config first.  See README.md.
 
@@ -81,7 +81,7 @@ echo "**                                                                     **"
 echo "**      Cloning PiFire from GitHub...                                  **"
 echo "**                                                                     **"
 echo "*************************************************************************"
-git clone https://github.com/nebhead/pifire
+git clone https://github.com/gsherwin74/pifire
 
 ### Setup nginx to proxy to gunicorn
 clear
